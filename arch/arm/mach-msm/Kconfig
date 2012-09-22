@@ -2289,6 +2289,18 @@ config ACPU_MAX_FREQ
 	  If set to non-zero number, will search for this frequency in
           frequency table and set as maximum supported frequency if found.
 
+config MSM_GPU_MAX_OC
+	bool "GPU Max Overclock support"
+	default n
+	help
+	  To support the Max GPU OC.
+
+config MSM_GPU_MAX_STOCK
+	bool "Stock GPU Max OC support"
+	default n
+	help
+	  To support the stock GPU OC.
+
 config MSM_CPU_MAX_CLK_2DOT1GHZ
 	bool "CPU Max 2.1Ghz clk support"
 	default n
